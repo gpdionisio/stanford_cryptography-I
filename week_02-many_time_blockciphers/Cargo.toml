@@ -1,0 +1,10 @@
+[package]
+authors = ["gpdionisio"]
+name = "week_02-multi_time_blockciphers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "0.4.3"
+aes = "0.8.1"
+rand = "0.8.5"

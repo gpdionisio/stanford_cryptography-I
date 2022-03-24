@@ -1,3 +1,6 @@
 /.idea/
 /week_01-many_time_pad/Cargo.lock
 /week_01-many_time_pad/target/
+/week_01-many_time_pad/target/Cargo.lock
+/week_02-many_time_blockciphers/target/
+/week_02-many_time_blockciphers/Cargo.lock
