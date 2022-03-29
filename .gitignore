@@ -4,3 +4,5 @@
 /week_01-many_time_pad/target/Cargo.lock
 /week_02-many_time_blockciphers/target/
 /week_02-many_time_blockciphers/Cargo.lock
+/week_03-file_integrity/target/
+/week_03-file_integrity/Cargo.lock

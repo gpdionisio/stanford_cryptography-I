@@ -1,0 +1,9 @@
+[package]
+authors = ["gpdionisio"]
+name = "week_03-file_integrity"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "0.4.3"
+sha2 = "0.10.2"
