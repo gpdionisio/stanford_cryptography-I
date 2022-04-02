@@ -6,3 +6,5 @@
 /week_02-many_time_blockciphers/Cargo.lock
 /week_03-file_integrity/target/
 /week_03-file_integrity/Cargo.lock
+/week_04-padding_oracle/target/
+/week_04-padding_oracle/Cargo.lock
