@@ -28,7 +28,14 @@ After some experimentation the attacker discovers that the web site is vulnerabl
 
 Armed with this information your goal is to decrypt the ciphertext listed above.
 
+## Week 5: [Discrete Log][w5]
+
+Your goal this week is to write a program to compute discrete log modulo a prime p. Let g be some element in {Z_p}^*, and suppose you are given h in {Z_p}^* s.t. h = g^x where 1 <= x <= 2^40. More precisely, the input to your program is p,g,h and the output is x.
+
+The trivial algorithm for this problem is to try all 2^40  possible values of x until the correct one is found, that is until we find an x satisfying h = g^x in Z_p. This requires 2^40 multiplications. In this project you will implement an algorithm that runs in time roughly sqrt{2^{40}} = 2^{20} using a meet in the middle attack.
+
 [w1]: week_01-many_time_pad/
 [w2]: week_02-many_time_blockciphers/
 [w3]: week_03-file_integrity/
 [w4]: week_04-padding_oracle/
+[w5]: week_05-discrete_log/

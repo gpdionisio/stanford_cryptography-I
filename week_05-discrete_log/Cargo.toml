@@ -1,0 +1,8 @@
+[package]
+authors = ["gpdionisio"]
+name = "week_05-discrete_log"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.4"
