@@ -34,7 +34,7 @@ Your goal this week is to write a program to compute discrete log modulo a prime
 
 The trivial algorithm for this problem is to try all 2^40  possible values of x until the correct one is found, that is until we find an x satisfying h = g^x in Z_p. This requires 2^40 multiplications. In this project you will implement an algorithm that runs in time roughly sqrt{2^{40}} = 2^{20} using a meet in the middle attack.
 
-## Week 6: [RSA Factoring challenges][w5]
+## Week 6: [RSA Factoring challenges][w6]
 
 Your goal in this project is to break RSA when the public modulus N is generated incorrectly. This should serve as yet another reminder not to implement crypto primitives yourself.
 
